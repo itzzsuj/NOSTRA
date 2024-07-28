@@ -245,7 +245,7 @@ body {
 
 .most-wanted{
     margin: 20px;
-    overflow: none;
+
     
 }
 .most-wanted::-webkit-scrollbar{
@@ -259,13 +259,18 @@ body {
 }
 
 
-.most-wanted__cards img{
+/* .most-wanted__cards img{
     width: 200px;
     height: 50vh;
-}
+} */
 .most-wanted__cards{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
     position: relative;
-    margin: 10px;
+    min-width: 21%;
+    height: 21;
+    margin-left: 10px;
 }
 .most-wanted__cards p{
     position: absolute;
